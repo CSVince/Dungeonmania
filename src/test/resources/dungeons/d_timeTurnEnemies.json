@@ -1,0 +1,84 @@
+{
+  "entities": [
+    {
+      "type" : "player",
+      "x" : 1,
+      "y" : 2
+    }, {
+      "type" : "mercenary",
+      "x" : 0,
+      "y" : 2
+    },{
+      "type" : "wood",
+      "x" : 1,
+      "y" : 3
+    }, {
+      "type" : "arrow",
+      "x" : 1,
+      "y" : 4
+    }, {
+      "type" : "invisibility_potion",
+      "x" : 1,
+      "y" : 5
+    }, {
+      "type" : "arrow",
+      "x" : 1,
+      "y" : 6
+    }, {
+      "type" : "time_turner",
+      "x" : 1,
+      "y" : 7
+    }, {
+      "type" : "time_travelling_portal",
+      "x" : 1,
+      "y" : 0
+    },
+    {
+      "type" : "bomb",
+      "x" : 3,
+      "y" : 3
+    }, {
+      "type" : "switch",
+      "x" : 4,
+      "y" : 2
+    }, {
+      "type" : "boulder",
+      "x" : 3,
+      "y" : 2
+    }, {
+      "type": "exit",
+      "x": 8,
+      "y": 8
+    }, {
+      "type" : "wall",
+      "x" : 5,
+      "y" : 2
+    }, {
+      "type" : "wall",
+      "x" : 6,
+      "y" : 2
+    },{
+      "type" : "treasure",
+      "x" : 5,
+      "y" : 3
+    },{
+      "type" : "treasure",
+      "x" : 4,
+      "y" : 5
+    },{
+      "type" : "time_turner",
+      "x" : 2,
+      "y" : 2
+    }, {
+      "type" : "spider",
+      "x" : 7,
+      "y" : 7
+    }, {
+      "type" : "time_travelling_portal",
+      "x" : 7,
+      "y" : 6
+    }
+
+  ],
+  "goal-condition": {"goal": "exit"}
+}

@@ -1,0 +1,46 @@
+{
+    "entities": [
+        {
+            "x": 2,
+            "y": 3,
+            "type": "player"
+        },
+        {
+            "x": 3,
+            "y": 3,
+            "type": "boulder"
+        },
+        {
+            "x": 5,
+            "y": 2,
+            "type": "boulder"
+        },
+        {
+            "x": 4,
+            "y": 3,
+            "type": "switch"
+        },
+        {
+            "x": 6,
+            "y": 2,
+            "type": "switch"
+        },
+        {
+            "x": 5,
+            "y": 3,
+            "type": "wire"
+        },
+        {
+            "x": 6,
+            "y": 3,
+            "type": "switch_door",
+            "logic": "co_and"
+        },
+        {
+            "x": 8,
+            "y": 8,
+            "type": "exit"
+        }
+    ],
+    "goal-condition": { "goal": "treasure" }
+}

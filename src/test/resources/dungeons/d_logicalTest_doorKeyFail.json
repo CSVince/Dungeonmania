@@ -1,0 +1,27 @@
+{
+    "entities": [
+        {
+            "x": 2,
+            "y": 2,
+            "type": "player"
+        },
+        {
+            "x": 3,
+            "y": 2,
+            "type": "key",
+            "key": 1
+        },
+        {
+            "x": 4,
+            "y": 2,
+            "type": "switch_door",
+            "logic": "co_and"
+        },
+        {
+            "x": 8,
+            "y": 8,
+            "type": "exit"
+        }
+    ],
+    "goal-condition": { "goal": "treasure" }
+}

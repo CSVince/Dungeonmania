@@ -1,0 +1,52 @@
+{
+    "entities": [
+        {
+            "x": 2,
+            "y": 2,
+            "type": "player"
+        },
+        {
+            "x": 3,
+            "y": 2,
+            "type": "boulder"
+        },
+        {
+            "x": 4,
+            "y": 2,
+            "type": "switch"
+        },
+        {
+            "x": 5,
+            "y": 2,
+            "type": "light_bulb_off",
+            "logic": "and"
+        },
+        {
+            "x": 4,
+            "y": 3,
+            "type": "boulder"
+        },
+        {
+            "x": 5,
+            "y": 3,
+            "type": "switch"
+        },
+        {
+            "x": 5,
+            "y": 4,
+            "type": "wire"
+        },
+        {
+            "x": 7,
+            "y": 7,
+            "type": "light_bulb_off",
+            "logic": "and"
+        },
+        {
+            "x": 8,
+            "y": 8,
+            "type": "exit"
+        }
+    ],
+    "goal-condition": { "goal": "treasure" }
+}
